@@ -1,0 +1,38 @@
+.head1{
+    background-color: blue;
+    height: 300px;
+}
+main{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    height: 100%;
+    padding-left: 40%;
+    padding-right: 40%;
+}
+div{
+    font-size: 100px;
+    text-align: center;
+    padding-top: 7%;
+}
+.head2{
+    background-color: orangered;
+    height: 300px;
+}
+.head3{
+    background-color: aqua;
+    height: 300px;
+}
+/* Small and up (Landscape Phones) */
+@media (min-width: 576px) {
+    main{
+        background-color: black;
+        color: white;
+        text-align: center;
+        font-size: 20px;
+        height: 400px;
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+}
